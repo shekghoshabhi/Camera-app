@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filters">
+            <div class="filter filter1" style="background-color: #ff6b6b67;"></div>
+            <div class="filter filter2" style="background-color: #48dafb54;"></div>
+            <div class="filter filter3" style="background-color: #ff9ff24f;"></div>
+            <div class="filter filter4" style="background-color: #ff784f54;"></div>
+            <div class="filter filter5" style="background-color: #ffb0425b;"></div>
+            <div  class="filter filter6" style="background-color: transparent"></div>
+        </div>
+        <!-- icons -->
+        <svg class="icon icon-add" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M16 7v18M25 16h-18"></path>
+        </svg>
+
+        <svg class="icon icon-minus" viewBox="0 0 20 20">
+            <path d="M16 10c0 0.553-0.048 1-0.601 1h-10.798c-0.552 0-0.601-0.447-0.601-1s0.049-1 0.601-1h10.799c0.552 0 0.6 0.447 0.6 1z"></path>
+        </svg>
+        <video autoplay style="transform: scale(1);"></video>
+        <button class= "record_btn">
+            <div></div>
+        </button>
+        <button class="capture_btn">
+            <div></div>
+        </button>
+
+        <button class= "gallery">
+            <center>Gallery</center>
+        </button>
+    </div>
+    <script src= "./js/dbscript.js"></script>
+    <script src= "./js/script.js"></script>
+</body>
+</html>
